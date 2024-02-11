@@ -5,7 +5,7 @@ const paginate = require('./public/pagination');
 const app = express();
 const port = 3000;
 
-const SHODAN_API_KEY = 'YOUR_SHODAN_API_KEY';
+const SHODAN_API_KEY = 'kNWoMbgDfszHJqH95uAe0lelO4AsQIim';
 const RESULTS_PER_PAGE = 10;
 
 app.set('view engine', 'ejs');
