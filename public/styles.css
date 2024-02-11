@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Error page styles */
+.error-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 24px;
+    color: #ff0000;
+}
